@@ -1,13 +1,12 @@
 degree = int(input("enter your degree :-> "))
 
-if(degree<=100 and degree >=85):
+if 100 >= degree >= 85:
     print("Excellent")
-elif(degree<85 and degree>= 75):
+elif 85 > degree >= 75:
     print("VEry Good")
-elif(degree<75 and degree >= 65):
+elif 75 > degree >= 65:
     print("good")
-elif(degree<65 and degree>=50):
+elif 65 > degree >= 50:
     print("acceptable")
-else :
-    print("fail")       
-    
+else:
+    print("fail")
