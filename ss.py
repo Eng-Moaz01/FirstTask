@@ -2,10 +2,10 @@ degree = int(input("enter your degree :-> "))
 
 
 def g_degree (values):
-    password=""
+    degree=""
     for i in range(0,100) :
-        password =password+ str(password.join(random.choices(values,k=1)))
-    return password
+        degree =degree + str(degree.join(random.choices(values,k=1)))
+    return degree
 
 if(degree<=100 and degree >=85):
     print("Excellent")
