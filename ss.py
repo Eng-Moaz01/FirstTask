@@ -1,6 +1,8 @@
 degree = int(input("enter your degree :-> "))
 
 
+
+
 def g_degree (values):
     degree=""
     for i in range(0,100) :
@@ -17,3 +19,4 @@ elif(degree<65 and degree>=50):
     print("acceptable")
 else :
     print("fail")       
+    
